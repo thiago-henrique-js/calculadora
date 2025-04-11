@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <h1>Calculadora online</h1>
+    <div>
+        <input class="display">
+        <button class="button-grey" onclick="limpar()">AC</button>
+        <button class="button-grey" onclick="sinal()">+/-</button>
+        <button class="button-blue" onclick="cliqueNoBotao('/')">/</button>
+        <button class="button-blue" onclick="cliqueNoBotao('*')">*</button>
+        <button class="button-black" onclick="cliqueNoBotao('7')" >7</button>
+        <button class="button-black" onclick="cliqueNoBotao('8')">8</button>
+        <button class="button-black" onclick="cliqueNoBotao('9')">9</button>
+        <button class="button-blue" onclick="cliqueNoBotao('-')">-</button>
+        <button class="button-black" onclick="cliqueNoBotao('4')">4</button>
+        <button class="button-black" onclick="cliqueNoBotao('5')">5</button>
+        <button class="button-black" onclick="cliqueNoBotao('6')">6</button>
+        <button class="button-blue" onclick="cliqueNoBotao('+')">+</button>
+        <button class="button-black" onclick="cliqueNoBotao('1')">1</button>
+        <button class="button-black" onclick="cliqueNoBotao('2')">2</button>
+        <button class="button-black" onclick="cliqueNoBotao('3')">3</button>
+        <button class="button-equal" onclick="resultado()">=</button>
+        <button class="button-black zero" onclick="cliqueNoBotao('0')">0</button>
+        <button class="button-black" onclick="cliqueNoBotao('.')">.</button>
+
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
